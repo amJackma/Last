@@ -1,0 +1,74 @@
+About this file 'Flight Delay Dataset.csv'
+
+This includes data from 2017 to 2018 and contains information about the arrival time, and departure time focusing on delays, not cancellations or diverted flights.
+
+
+Columns Description:
+
+Columns				Description
+Year				Year
+Quarter				Quarter
+Month				Month
+DayofMonth			DayofMonth
+DayOfWeek			DayOfWeek
+FL_DATE				FlightDate
+UNIQUE_CARRIER		Unique Marketing Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2). Use this field for analysis across a range of years.
+ORIGIN				Origin Airport code
+ORIGIN_CITY_NAME	Origin Airport, City Name
+ORIGIN_STATE_ABR	Origin Airport, State abbreviation
+DEST				Destination Airport code
+DEST_CITY_NAME		Destination Airport, City Name
+DEST_STATE_ABR		Destination Airport, State abbreviation
+DEP_TIME			Actual Departure Time (local time: hhmm)
+ARR_TIME			Actual Arrival Time (local time: hhmm)
+ARR_DELAY			Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.
+AIR_TIME			Flight Time, in Minutes
+DISTANCE			Distance between airports (miles)
+DISTANCE_GROUP		Distance Intervals, every 250 Miles, for Flight Segment
+
+
+
+Objective: 
+We are a travel app development company looking to add an intelligent feature that helps users make informed decisions about flight delays. You are tasked to build an end-to-end machine learning solution that predicts flight delays and provides actionable insights to travelers.
+
+Tasks:
+
+1)	Data Exploration & Analysis
+    - Perform comprehensive exploratory data analysis
+    - Identify patterns, trends, and anomalies in the dataset
+    - Engineer meaningful features that could improve prediction accuracy
+    - Provide code and visualizations with detailed explanations
+
+2)	Machine Learning Model Development
+    - Develop at least two different predictive models using appropriate algorithms
+    - Define your target variable and explain your labeling strategy
+    - Implement proper data preprocessing and feature engineering techniques
+    - Apply best practices for model training and validation
+
+3)	Model Evaluation & Selection
+    - Compare model performance using relevant evaluation metrics
+    - Justify your choice of metrics based on the business context
+    - Provide comprehensive analysis on which model should be adopted
+    - Discuss trade-offs between different models
+
+4)	Model Interpretation & Insights
+    - Explain the key factors that contribute to flight delay predictions
+    - Provide interpretable insights that can be communicated to end users
+    - Discuss how these findings can be translated into app features
+
+BONUS (Optional): Advanced Implementation
+5)	Deploy an intelligent interface that allows users to interact with your model naturally
+    - Consider building conversational AI capabilities for user queries
+    - Implement recommendation systems based on predictions
+    - Design architecture for real-time prediction services
+
+Deliverable: 
+Submit a Jupyter notebook including:
+- Complete analysis and explanation for all required tasks
+- Well-documented code with markdown explanations
+- Visualizations and insights that support your findings
+- Clear recommendations for implementation
+- (Optional) Additional components for advanced features - you may include extra Python scripts if the notebook alone is insufficient
+
+Note: You have flexibility in your technical approach - choose tools, frameworks, and methodologies that best demonstrate your skills and suit the problem requirements.
+
