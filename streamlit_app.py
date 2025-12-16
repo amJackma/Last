@@ -4,9 +4,12 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-# Load the trained LightGBM model
-MODEL_PATH = "saved_models/lightgbm_delay/lightgbm_delay_vbaseline_pre_tuning.joblib"
-model = joblib.load(MODEL_PATH)
+@st.cache_resource
+def load_model():
+    MODEL_PATH = "saved_models/lightgbm_delay/lightgbm_delay_vbaseline_pre_tuning.joblib"
+    return joblib.load(MODEL_PATH)
+
+model = load_model()
 
 # Carrier codes
 CARRIER_OPTIONS = ['AA', 'DL', 'UA', 'WN', 'AS', 'B6', 'F9', 'G4', 'HA', 'NK', 'SY', 'VX']
