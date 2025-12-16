@@ -130,6 +130,6 @@ dmypy.json
 .pyre/
 
 # Project specific
-saved_models/
+saved_models/random_forest_delay/
 *.csv
 .streamlit/
