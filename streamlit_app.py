@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime
 
 # Load the trained LightGBM model
-MODEL_PATH = r"D:\Last\saved_models\lightgbm_delay\lightgbm_delay_vbaseline_pre_tuning.joblib"
+MODEL_PATH = "saved_models/lightgbm_delay/lightgbm_delay_vbaseline_pre_tuning.joblib"
 model = joblib.load(MODEL_PATH)
 
 # Carrier codes
